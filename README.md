@@ -2,8 +2,8 @@
 
 The **Pixelboard** is a 80*40cm lounge table board only 24mm thick, integrating a 10x20 color pixel matrix, 8 touch keys, a linux controller with WiFi and ethernet and even a power supply. All disguised under a dark plexiglass, looking like a regular lounge table until touched...
 
-![Pixelboard](photos/pixelboard - blocks.jpg)
-![](photos/pixelboard - conway.jpg)
+![Pixelboard at night](photos/pixelboard-blocks.jpg)
+![Pixelboard daytime](photos/pixelboard-conway.jpg)
 
 With the current software (see [pixelboardd](https://github.com/plan44/pixelboardd) and [pixelboard-config in plan44-feed](https://github.com/plan44/plan44-feed/tree/for-lede-master/pixelboard-config)) you can play tetris (alone or 2 players each on one end of the board), watch Conway's game of life, let text messages scroll over the surface and display small 10x20 pixel PNG images (via web interface).
 
@@ -17,17 +17,17 @@ The two identical touch key boards are based on the AT42QT1070 chip for handling
 
 And in `photos` there are a few images showing various states of assembling all this:
 
-![](photos/pixelboard - assembled except front glass.jpg)
+![Without front glass](photos/pixelboard-assembled_except_front_glass.jpg)
 Front glass removed
 
-![](photos/pixelboard - diffusor frame and upper carrier removed 1.jpg)
+![bottom frame only](photos/pixelboard-diffusor_frame_and_upper_carrier_removed_1.jpg)
 Controlboard side, just base plate and first lasered frame (lower carrier) keeping the LED matrix, cables, and controlboard in place.
 
-![](photos/pixelboard - diffusor frame and upper carrier removed 2.jpg)
+![power supply side](photos/pixelboard-diffusor_frame_and_upper_carrier_removed_2.jpg)
 Power supply side, base plate and lower carrier.
 
-![](photos/pixelboard - power supply.jpg)
+![with touchboard](photos/pixelboard-power_supply.jpg)
 Power supply side, now with all plywood layers and touchboard mounted.
 
-![](photos/pixelboard - controlboard with Omega2.jpg)
+![Controlboard side](photos/pixelboard-controlboard_with_Omega2.jpg)
 Controlboard side, all plywood layers mounted, diffusor plexi sqares inserted, touchboard mounted. Note that this photo does not yet show the hole for a little speaker connected to the MAX98357A i2s amp (but the plan drawings have it).
