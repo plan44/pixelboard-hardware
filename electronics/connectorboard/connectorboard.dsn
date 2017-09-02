@@ -1,0 +1,267 @@
+(pcb /Users/luz/Documents/Privat/Projekte/TetrisTisch/Schematics+PCB/connectorboard/connectorboard.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.4-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  49530 -119380  49530 -129540  378460 -129540  378460 -119380
+            49530 -119380  49530 -119380)
+    )
+    (via "Via[0-1]_600:400_um" "Via[0-1]_2000:1000_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_ThroughHole:C_Rect_L7_W2.5_P5
+      (place C1 91440 -121920 front 0 (PN 100nF))
+      (place C2 156210 -121920 front 180 (PN 100nF))
+      (place C3 218440 -121920 front 0 (PN 100nF))
+      (place C4 289560 -121920 front 180 (PN 100nF))
+    )
+    (component "plan44:plan44-WS2813-CONN"
+      (place CN1 67180 -127000 front 90 (PN "WS2813-CONN-IN"))
+      (place CN2 100480 -126900 front 90 (PN "WS2813-CONN-OUT"))
+      (place CN3 133680 -126800 front 90 (PN "WS2813-CONN-OUT"))
+      (place CN4 166980 -126800 front 90 (PN "WS2813-CONN-IN"))
+      (place CN5 200280 -126800 front 90 (PN "WS2813-CONN-IN"))
+      (place CN6 233580 -126800 front 90 (PN "WS2813-CONN-OUT"))
+      (place CN7 266880 -126800 front 90 (PN "WS2813-CONN-OUT"))
+      (place CN8 300180 -126800 front 90 (PN "WS2813-CONN-IN"))
+      (place CN9 333480 -126800 front 90 (PN "WS2813-CONN-IN"))
+      (place CN10 366780 -126800 front 90 (PN "WS2813-CONN-OUT"))
+      (place CN11 67180 -127000 back 90 (PN "WS2813-CONN-OUT"))
+      (place CN12 100480 -126900 back 90 (PN "WS2813-CONN-IN"))
+      (place CN13 133680 -126800 back 90 (PN "WS2813-CONN-IN"))
+      (place CN14 166980 -126800 back 90 (PN "WS2813-CONN-OUT"))
+      (place CN15 200280 -126800 back 90 (PN "WS2813-CONN-OUT"))
+      (place CN16 233580 -126800 back 90 (PN "WS2813-CONN-IN"))
+      (place CN17 266880 -126800 back 90 (PN "WS2813-CONN-IN"))
+      (place CN18 300180 -126800 back 90 (PN "WS2813-CONN-OUT"))
+      (place CN19 333480 -126800 back 90 (PN "WS2813-CONN-OUT"))
+      (place CN20 366780 -126800 back 90 (PN "WS2813-CONN-IN"))
+    )
+    (component "plan44:plan44-STELVIO-2P-508"
+      (place J1 43180 -121920 front 0 (PN "STELVIO-2P-508"))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x04
+      (place P1 78740 -121920 front 90 (PN CONN_01X04))
+    )
+  )
+  (library
+    (image Capacitors_ThroughHole:C_Rect_L7_W2.5_P5
+      (outline (path signal 50  -1250 1500  6250 1500))
+      (outline (path signal 50  6250 1500  6250 -1500))
+      (outline (path signal 50  6250 -1500  -1250 -1500))
+      (outline (path signal 50  -1250 -1500  -1250 1500))
+      (outline (path signal 150  -1000 1250  6000 1250))
+      (outline (path signal 150  6000 1250  6000 -1250))
+      (outline (path signal 150  6000 -1250  -1000 -1250))
+      (outline (path signal 150  -1000 -1250  -1000 1250))
+      (pin Rect[A]Pad_1300x1300_um 1 0 0)
+      (pin Round[A]Pad_1300_um 2 5000 0)
+    )
+    (image "plan44:plan44-WS2813-CONN"
+      (pin Rect[T]Pad_3810x1930.4_um 1 0 0)
+      (pin Oval[T]Pad_3810x1930.4_um 2 0 -2540)
+      (pin Oval[T]Pad_3810x1930.4_um 3 0 -5080)
+      (pin Oval[T]Pad_3810x1930.4_um 4 0 -7620)
+    )
+    (image "plan44:plan44-STELVIO-2P-508"
+      (outline (path signal 127  7058.66 -1998.98  7058.66 9999.98))
+      (outline (path signal 127  7058.66 9999.98  18399.8 9999.98))
+      (outline (path signal 127  18399.8 9999.98  18399.8 -1998.98))
+      (outline (path signal 127  18399.8 -1998.98  7058.66 -1998.98))
+      (pin Rect[TB]Pad_2540x2540_um 1 15240 0)
+      (pin Round[TB]Pad_2540_um 2 10160 0)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x04
+      (outline (path signal 50  -1750 1750  -1750 -9400))
+      (outline (path signal 50  1750 1750  1750 -9400))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -9400  1750 -9400))
+      (outline (path signal 150  -1270 -1270  -1270 -8890))
+      (outline (path signal 150  1270 -1270  1270 -8890))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 150  -1270 -8890  1270 -8890))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (pin Rect[A]Pad_2032x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_2032x1727.2_um 2 0 -2540)
+      (pin Oval[A]Pad_2032x1727.2_um 3 0 -5080)
+      (pin Oval[A]Pad_2032x1727.2_um 4 0 -7620)
+    )
+    (padstack Round[A]Pad_1300_um
+      (shape (circle F.Cu 1300))
+      (shape (circle B.Cu 1300))
+      (attach off)
+    )
+    (padstack Round[TB]Pad_2540_um
+      (shape (circle F.Cu 2540))
+      (shape (circle B.Cu 2540))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2032x1727.2_um
+      (shape (path F.Cu 1727.2  -152.4 0  152.4 0))
+      (shape (path B.Cu 1727.2  -152.4 0  152.4 0))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_3810x1930.4_um
+      (shape (path F.Cu 1930.4  -939.8 0  939.8 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x1727.2_um
+      (shape (rect F.Cu -1016 -863.6 1016 863.6))
+      (shape (rect B.Cu -1016 -863.6 1016 863.6))
+      (attach off)
+    )
+    (padstack Rect[TB]Pad_2540x2540_um
+      (shape (rect F.Cu -1270 -1270 1270 1270))
+      (shape (rect B.Cu -1270 -1270 1270 1270))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3810x1930.4_um
+      (shape (rect F.Cu -1905 -965.2 1905 965.2))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1300x1300_um
+      (shape (rect F.Cu -650 -650 650 650))
+      (shape (rect B.Cu -650 -650 650 650))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_2000:1000_um"
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+  )
+  (network
+    (net +5V
+      (pins C1-1 C2-1 C3-1 C4-1 CN1-1 CN2-4 CN3-4 CN4-1 CN5-1 CN6-4 CN7-4 CN8-1 CN9-1
+        CN10-4 CN11-4 CN12-1 CN13-1 CN14-4 CN15-4 CN16-1 CN17-1 CN18-4 CN19-4 CN20-1
+        J1-2 P1-4)
+    )
+    (net "Net-(CN1-Pad2)"
+      (pins CN1-2 P1-2)
+    )
+    (net "Net-(CN1-Pad3)"
+      (pins CN1-3)
+    )
+    (net "Net-(CN2-Pad2)"
+      (pins CN2-2 CN4-2)
+    )
+    (net "Net-(CN2-Pad3)"
+      (pins CN2-3 CN4-3)
+    )
+    (net "Net-(CN3-Pad2)"
+      (pins CN3-2 CN5-2)
+    )
+    (net "Net-(CN3-Pad3)"
+      (pins CN3-3 CN5-3)
+    )
+    (net "Net-(CN6-Pad2)"
+      (pins CN6-2 CN8-2)
+    )
+    (net "Net-(CN6-Pad3)"
+      (pins CN6-3 CN8-3)
+    )
+    (net "Net-(CN7-Pad2)"
+      (pins CN7-2 CN9-2)
+    )
+    (net "Net-(CN7-Pad3)"
+      (pins CN7-3 CN9-3)
+    )
+    (net "Net-(CN10-Pad2)"
+      (pins CN10-2 CN12-2)
+    )
+    (net "Net-(CN10-Pad3)"
+      (pins CN10-3 CN12-3)
+    )
+    (net "Net-(CN11-Pad2)"
+      (pins CN11-2 CN13-2)
+    )
+    (net "Net-(CN11-Pad3)"
+      (pins CN11-3 CN13-3)
+    )
+    (net "Net-(CN14-Pad2)"
+      (pins CN14-2 CN16-2)
+    )
+    (net "Net-(CN14-Pad3)"
+      (pins CN14-3 CN16-3)
+    )
+    (net "Net-(CN15-Pad2)"
+      (pins CN15-2 CN17-2)
+    )
+    (net "Net-(CN15-Pad3)"
+      (pins CN15-3 CN17-3)
+    )
+    (net "Net-(CN18-Pad2)"
+      (pins CN18-2 CN20-2)
+    )
+    (net "Net-(CN18-Pad3)"
+      (pins CN18-3 CN20-3)
+    )
+    (net "Net-(CN19-Pad2)"
+      (pins CN19-2)
+    )
+    (net "Net-(CN19-Pad3)"
+      (pins CN19-3)
+    )
+    (net GND
+      (pins C1-2 C2-2 C3-2 C4-2 CN1-4 CN2-1 CN3-1 CN4-4 CN5-4 CN6-1 CN7-1 CN8-4 CN9-4
+        CN10-1 CN11-1 CN12-4 CN13-4 CN14-1 CN15-1 CN16-4 CN17-4 CN18-1 CN19-1 CN20-4
+        J1-1 P1-1 P1-3)
+    )
+    (class kicad_default "" "Net-(CN1-Pad2)" "Net-(CN1-Pad3)" "Net-(CN10-Pad2)"
+      "Net-(CN10-Pad3)" "Net-(CN11-Pad2)" "Net-(CN11-Pad3)" "Net-(CN14-Pad2)"
+      "Net-(CN14-Pad3)" "Net-(CN15-Pad2)" "Net-(CN15-Pad3)" "Net-(CN18-Pad2)"
+      "Net-(CN18-Pad3)" "Net-(CN19-Pad2)" "Net-(CN19-Pad3)" "Net-(CN2-Pad2)"
+      "Net-(CN2-Pad3)" "Net-(CN3-Pad2)" "Net-(CN3-Pad3)" "Net-(CN6-Pad2)"
+      "Net-(CN6-Pad3)" "Net-(CN7-Pad2)" "Net-(CN7-Pad3)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class Power +5V GND
+      (circuit
+        (use_via Via[0-1]_2000:1000_um)
+      )
+      (rule
+        (width 2000)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
