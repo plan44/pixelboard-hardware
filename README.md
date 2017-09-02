@@ -29,5 +29,5 @@ Power supply side, base plate and lower carrier.
 ![with touchboard](photos/pixelboard-power_supply.jpg)
 Power supply side, now with all plywood layers and touchboard mounted.
 
-![Controlboard side](photos/pixelboard-controlboard_with_Omega2.jpg)
+![Controlboard side](photos/pixelboard-controlboard_with_omega2.jpg)
 Controlboard side, all plywood layers mounted, diffusor plexi sqares inserted, touchboard mounted. Note that this photo does not yet show the hole for a little speaker connected to the MAX98357A i2s amp (but the plan drawings have it).
