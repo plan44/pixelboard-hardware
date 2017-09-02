@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:touchboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,19 +29,17 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ic-io
-LIBS:p44_pixelboard
-LIBS:plan44_from_eagle
+LIBS:plan44
 LIBS:touchboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "touchboard"
 Date ""
-Rev ""
-Comp ""
+Rev "v1"
+Comp "plan44.ch/luz"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -342,7 +341,7 @@ F 3 "" H 9600 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MCP23S17 U2
+L MCP23S17-RESCUE-touchboard U2
 U 1 1 57FE8AAA
 P 7800 2700
 F 0 "U2" H 7800 2700 60  0000 C CNN

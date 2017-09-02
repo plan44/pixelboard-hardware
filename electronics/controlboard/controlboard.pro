@@ -1,4 +1,4 @@
-update=2017 May 15, Monday 16:10:11
+update=2017 September 02, Saturday 20:16:26
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../Schematics+PCB
+LibDir=../../../plan44-kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,16 +69,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/Users/luz/Documents/Privat/Projekte/TetrisTisch/Schematics+PCB/ic-io
-LibName32=/Users/luz/Documents/Privat/Projekte/TetrisTisch/Schematics+PCB/p44_pixelboard
-LibName33=/Users/luz/Documents/Privat/Projekte/TetrisTisch/Schematics+PCB/plan44_from_eagle
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName31=plan44

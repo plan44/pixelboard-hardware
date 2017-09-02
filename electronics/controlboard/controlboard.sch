@@ -29,9 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ic-io
-LIBS:p44_pixelboard
-LIBS:plan44_from_eagle
+LIBS:plan44
 LIBS:controlboard-cache
 EELAYER 25 0
 EELAYER END
@@ -41,14 +39,14 @@ Sheet 1 1
 Title "Controlboard for Pixelboard"
 Date "2017-03-05"
 Rev "v4"
-Comp "plan44.ch"
+Comp "plan44.ch/luz"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ONION-OMEGA2 U1
+L ONION-OMEGA2-RESCUE-controlboard U1
 U 1 1 57FDEEFD
 P 5800 2250
 F 0 "U1" H 5500 2950 45  0000 L BNN

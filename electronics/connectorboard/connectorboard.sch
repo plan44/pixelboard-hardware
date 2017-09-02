@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:connectorboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,18 +28,17 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:p44_pixelboard
-LIBS:plan44_from_eagle
+LIBS:plan44
 LIBS:connectorboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "connectorboard (for pixelboard)"
 Date ""
-Rev ""
-Comp ""
+Rev "v1"
+Comp "plan44.ch/luz"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -55,7 +53,7 @@ F 1 "WS2813-CONN-IN" V 2350 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 2380 2800 20  0001 C CNN
 F 3 "" H 2350 2650 60  0001 C CNN
 	1    2350 2650
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN2
@@ -66,7 +64,7 @@ F 1 "WS2813-CONN-OUT" V 2750 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 2780 2800 20  0001 C CNN
 F 3 "" H 2750 2650 60  0001 C CNN
 	1    2750 2650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN3
@@ -77,7 +75,7 @@ F 1 "WS2813-CONN-IN" V 3750 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 3780 2800 20  0001 C CNN
 F 3 "" H 3750 2650 60  0001 C CNN
 	1    3750 2650
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN4
@@ -88,7 +86,7 @@ F 1 "WS2813-CONN-OUT" V 4150 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 4180 2800 20  0001 C CNN
 F 3 "" H 4150 2650 60  0001 C CNN
 	1    4150 2650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN5
@@ -99,7 +97,7 @@ F 1 "WS2813-CONN-IN" V 5150 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 5180 2800 20  0001 C CNN
 F 3 "" H 5150 2650 60  0001 C CNN
 	1    5150 2650
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN6
@@ -110,7 +108,7 @@ F 1 "WS2813-CONN-OUT" V 5550 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 5580 2800 20  0001 C CNN
 F 3 "" H 5550 2650 60  0001 C CNN
 	1    5550 2650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN7
@@ -121,7 +119,7 @@ F 1 "WS2813-CONN-IN" V 6550 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 6580 2800 20  0001 C CNN
 F 3 "" H 6550 2650 60  0001 C CNN
 	1    6550 2650
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN8
@@ -132,7 +130,7 @@ F 1 "WS2813-CONN-OUT" V 6950 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 6980 2800 20  0001 C CNN
 F 3 "" H 6950 2650 60  0001 C CNN
 	1    6950 2650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN9
@@ -143,7 +141,7 @@ F 1 "WS2813-CONN-IN" V 7950 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 7980 2800 20  0001 C CNN
 F 3 "" H 7950 2650 60  0001 C CNN
 	1    7950 2650
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN10
@@ -154,7 +152,7 @@ F 1 "WS2813-CONN-OUT" V 8350 2650 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 8380 2800 20  0001 C CNN
 F 3 "" H 8350 2650 60  0001 C CNN
 	1    8350 2650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR1
@@ -165,7 +163,7 @@ F 1 "+5V" H 8650 2040 50  0000 C CNN
 F 2 "" H 8650 1900 50  0000 C CNN
 F 3 "" H 8650 1900 50  0000 C CNN
 	1    8650 1900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR2
@@ -176,7 +174,7 @@ F 1 "GND" H 8950 5000 50  0000 C CNN
 F 2 "" H 8950 5150 50  0000 C CNN
 F 3 "" H 8950 5150 50  0000 C CNN
 	1    8950 5150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C1
@@ -187,7 +185,7 @@ F 1 "100nF" H 2925 1800 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 2938 1750 50  0001 C CNN
 F 3 "" H 2900 1900 50  0000 C CNN
 	1    2900 1900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L C C2
@@ -198,7 +196,7 @@ F 1 "100nF" H 4325 1800 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 4338 1750 50  0001 C CNN
 F 3 "" H 4300 1900 50  0000 C CNN
 	1    4300 1900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L C C3
@@ -209,7 +207,7 @@ F 1 "100nF" H 5725 1800 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 5738 1750 50  0001 C CNN
 F 3 "" H 5700 1900 50  0000 C CNN
 	1    5700 1900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L C C4
@@ -220,7 +218,7 @@ F 1 "100nF" H 7125 1800 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 7138 1750 50  0001 C CNN
 F 3 "" H 7100 1900 50  0000 C CNN
 	1    7100 1900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2050 2250 2050 2650
@@ -345,7 +343,7 @@ F 1 "WS2813-CONN-OUT" V 2350 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 2380 4450 20  0001 C CNN
 F 3 "" H 2350 4300 60  0001 C CNN
 	1    2350 4300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN12
@@ -356,7 +354,7 @@ F 1 "WS2813-CONN-IN" V 2750 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 2780 4450 20  0001 C CNN
 F 3 "" H 2750 4300 60  0001 C CNN
 	1    2750 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN13
@@ -367,7 +365,7 @@ F 1 "WS2813-CONN-OUT" V 3750 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 3780 4450 20  0001 C CNN
 F 3 "" H 3750 4300 60  0001 C CNN
 	1    3750 4300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN14
@@ -378,7 +376,7 @@ F 1 "WS2813-CONN-IN" V 4150 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 4180 4450 20  0001 C CNN
 F 3 "" H 4150 4300 60  0001 C CNN
 	1    4150 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN15
@@ -389,7 +387,7 @@ F 1 "WS2813-CONN-OUT" V 5150 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 5180 4450 20  0001 C CNN
 F 3 "" H 5150 4300 60  0001 C CNN
 	1    5150 4300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN16
@@ -400,7 +398,7 @@ F 1 "WS2813-CONN-IN" V 5550 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 5580 4450 20  0001 C CNN
 F 3 "" H 5550 4300 60  0001 C CNN
 	1    5550 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN17
@@ -411,7 +409,7 @@ F 1 "WS2813-CONN-OUT" V 6550 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 6580 4450 20  0001 C CNN
 F 3 "" H 6550 4300 60  0001 C CNN
 	1    6550 4300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN18
@@ -422,7 +420,7 @@ F 1 "WS2813-CONN-IN" V 6950 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 6980 4450 20  0001 C CNN
 F 3 "" H 6950 4300 60  0001 C CNN
 	1    6950 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L WS2813-CONN-OUT CN19
@@ -433,7 +431,7 @@ F 1 "WS2813-CONN-OUT" V 7950 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 7980 4450 20  0001 C CNN
 F 3 "" H 7950 4300 60  0001 C CNN
 	1    7950 4300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L WS2813-CONN-IN CN20
@@ -444,7 +442,7 @@ F 1 "WS2813-CONN-IN" V 8350 4300 45  0001 L BNN
 F 2 "plan44:plan44-WS2813-CONN" H 8380 4450 20  0001 C CNN
 F 3 "" H 8350 4300 60  0001 C CNN
 	1    8350 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2050 4300 2050 4900
@@ -580,7 +578,7 @@ F 1 "STELVIO-2P-508" H 1050 1800 45  0001 L BNN
 F 2 "plan44:plan44-STELVIO-2P-508" H 1080 1950 20  0001 C CNN
 F 3 "" H 1050 1800 60  0001 C CNN
 	1    1050 1800
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1150 2250 1150 2100
@@ -601,7 +599,7 @@ F 1 "CONN_01X04" V 2300 1450 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2200 1450 50  0001 C CNN
 F 3 "" H 2200 1450 50  0000 C CNN
 	1    2200 1450
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2250 1650 2250 2350
